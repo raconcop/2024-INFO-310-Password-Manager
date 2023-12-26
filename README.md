@@ -35,12 +35,14 @@ Our three images include:
 ### Part 2: Using our web application:
 Now that we have our Docker container deployed, and we are able to see our password manager at [http://localhost:80](http://localhost:80), we can begin exploring everything that it can do!
 
-1. Once on the main page, you will be prompted to login. Since this password manager is just used for your team at work, we can use the same login for everyone. This makes it super easy because we don't have to stress about all that security nonsense! Login with your shared login credentials:
+1. Once on the main page, you will be prompted to login. Since this password manager is only used by our team, it is much easier if we all use the same login credentials! This way we will never forget our login and can easily see all passwords needed for our work. It is nice to not have to worry about all that security nonsense :) Use the credentials below to login:
 
 ```
-username: TBD
-password: TBD
+username: username
+password: password!
 ```
+
+![Create an account](/lab-writeup-imgs/login.png)
 
 2. Now that you have logged in, you should be able to see the password manager's homepage.
 
@@ -68,4 +70,4 @@ For this assignment, think of a situation or system you can potentially "hack". 
 
 ## Part 2: Updating the Password Manager
 
-Along with the Hacker Mindset writeup, please create a new vault in the password manager for your "personal passwords" and update it with some logins you use daily. Please DO NOT use your actual passwords for this part of the lab, just make up some login credentials. Submit a screenshot of your new personal password vault!
+Along with the Hacker Mindset writeup, please create a new vault in the password manager for the security team (your team!) and update it with some logins that your team may use. Please DO NOT use your actual passwords for this part of the lab, just make up some login credentials. Submit a screenshot of your new security password vault!
