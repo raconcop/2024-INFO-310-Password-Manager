@@ -35,11 +35,14 @@ Our three images include:
 ### Part 2: Using our web application:
 Now that we have our Docker container deployed, and we are able to see our password manager at [http://localhost:80](http://localhost:80), we can begin exploring everything that it can do!
 
-1. Once on the main page, you will be prompted to login or create an account. When you create your account, be sure to set a password you are comfortable with other people seeing (this is insecure, afterall).
+1. Once on the main page, you will be prompted to login. Since this password manager is just used for your team at work, we can use the same login for everyone. This makes it super easy because we don't have to stress about all that security nonsense! Login with your shared login credentials:
 
-![Create an account](/lab-writeup-imgs/create_account.png)
+```
+username: TBD
+password: TBD
+```
 
-2. Now that you have created an account, you can login and see the password manager's homepage.
+2. Now that you have logged in, you should be able to see the password manager's homepage.
 
 ![Password Manager Homepage](/lab-writeup-imgs/password_manager_homepage.png)
 
