@@ -1,6 +1,8 @@
 # Week 1 | Getting Started
 Welcome to the UW Cybersecurity Password Manager! Until now, this password manager has been used internally by you and your team for work-related password management. Your boss has decided that this password manager could make a great consumer product and would like to make it publicly available by the end of the quarter. You know that in the web application's current state, there are numerous security issues that need to be addressed before the general public can safely use this service. Over the next several weeks, you will apply what you learn in lecture to identify vulnerabilities in this web app, remediate them, and ensure that the web application maintains it's functionality. By the end of the quarter you will be left with a totally secure password manager!
 
+Feel free to use whichever IDE (integrated development environment) you prefer for this course. The teaching team will primarily be using Visual Studio Code during lab section, and all demos and examples in the lab instructions will be shown in VS Code. You can download VS Code [here](https://code.visualstudio.com/Download)!
+
 ## Docker basics
 
 This web application runs in Docker. Docker is a platform for developing and deploying applications within containers. Containers are self-sufficient units that are capable of running an application and all of it's dependencies isolated from the underlying operating system. This is extremely helpful in a development and testing environment as it allows us to run applications regardless of an end user's operating system/machine. Below is some important terminology to use moving forward:
