@@ -6,7 +6,7 @@ services:
             - ./nginx-default.conf:/etc/nginx/conf.d/default.conf
             - ./webapp/public:/var/www/html/public        
         ports:
-            - "80:80"
+            - "443:443"
             
     # php
     webapp:
@@ -23,6 +23,8 @@ services:
         volumes:
             - mysqldata:/var/lib/mysql
             - ./database:/docker-entrypoint-initdb.d
+            - ./certs/localhost.crt:/etc/nginx/ssl/localhost.crt
+            - ./certs/localhost.key:/etc/nginx/ssl/localhost.key
         restart: always      
         command: --init-file /docker-entrypoint-initdb.d/init.sql
         environment:
